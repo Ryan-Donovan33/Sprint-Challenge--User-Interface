@@ -217,6 +217,50 @@ nav a {
 	justify-content: center;
 }
 
+.middle-section {
+	display: flex;
+	justify-content: space-evenly;
+	flex-flow: row wrap;
+	border: 5px solid red;
+	width: 100%;
+	padding: 5px;
+}
+
+.middle-section div {
+	width: 40%;
+	height: auto;
+	margin: 50px;
+	display: flex;
+	flex-direction: column;
+	align-content: flex-end;
+	border-bottom: 2px dotted black;
+}
+
+.middle-section div img {
+	width: 100%;
+	height: auto;
+}
+
+.middle-section div h2 {
+	margin: 5px;
+	font-size: 18px;
+	padding: 2px;
+}
+
+.middle-section div p {
+	margin: 5px;
+	font-size: 14px;
+	padding: 2px;
+}
+
+.button {
+	margin: 5px;
+	padding: 10px;
+	width: 100px;
+	background-color: white;
+	border-radius: 10px;
+}
+
 .bottom-content {
 	display: flex;
 	margin: 0 2% 20px;
