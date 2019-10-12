@@ -361,3 +361,18 @@ footer nav a {
 	color: white;
 	text-decoration: none;
 }
+
+/* Stretch Goal CSS below */
+
+.blog {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.blog div {
+	width: 44%;
+	display: block;
+	padding: 10px;
+	background-color: lightskyblue;
+	margin: 20px;
+}
