@@ -233,6 +233,46 @@ nav a {
 	justify-content: center;
 }
 
+.middle-content .boxes .box.box1 {
+	background-color: teal;
+}
+
+.middle-content .boxes .box.box2 {
+	background-color: gold;
+}
+
+.middle-content .boxes .box.box3 {
+	background-color: cadetblue;
+}
+
+.middle-content .boxes .box.box4 {
+	background-color: coral;
+}
+
+.middle-content .boxes .box.box5 {
+	background-color: crimson;
+}
+
+.middle-content .boxes .box.box6 {
+	background-color: forestgreen;
+}
+
+.middle-content .boxes .box.box7 {
+	background-color: darkorchid;
+}
+
+.middle-content .boxes .box.box8 {
+	background-color: hotpink;
+}
+
+.middle-content .boxes .box.box9 {
+	background-color: indigo;
+}
+
+.middle-content .boxes .box.box10 {
+	background-color: dodgerblue;
+}
+
 .middle-section {
 	display: flex;
 	justify-content: space-evenly;
@@ -259,20 +299,20 @@ nav a {
 }
 
 .middle-section div h2 {
-	margin-top: 10px;
+	margin: 10px;
 	font-size: 18px;
 	padding: 5px;
 }
 
 .middle-section div p {
-	margin-top: 5px;
+	margin: 5px;
 	font-size: 14px;
 	padding: 5px;
 }
 
 .button {
 	margin: 10px;
-	padding: 5px;
+	padding: 10px;
 	width: 100px;
 	background-color: white;
 	border-radius: 10px;
