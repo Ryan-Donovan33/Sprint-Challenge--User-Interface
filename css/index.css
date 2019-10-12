@@ -193,6 +193,7 @@ nav a {
 .container-about-page {
 	display: flex;
 	flex-direction: column;
+	margin: 10px;
 }
 
 .container-about-page h2 {
@@ -286,9 +287,9 @@ nav a {
 	width: 40%;
 	height: auto;
 	margin: 50px;
-	display: flex;
-	flex-direction: column;
-	align-content: flex-end;
+	display: block;
+	/* flex-direction: column; */
+	/* align-content: flex-end; */
 	border-bottom: 2px dotted black;
 }
 
@@ -305,7 +306,7 @@ nav a {
 }
 
 .middle-section div p {
-	margin: 5px;
+	margin: 10px;
 	font-size: 14px;
 	padding: 5px;
 }
